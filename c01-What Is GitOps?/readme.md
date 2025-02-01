@@ -80,3 +80,15 @@ This approach enhances automation, consistency, and security while reducing manu
 In the next sections, we will explore practical implementations of GitOps, including setting up infrastructure on AWS
 using Terraform and GitHub Actions.
 
+
+
+```mermaid
+graph TD;
+    A[Front End Developer]
+    B[Back End Developer]
+    C[Kubernetes Administrator]
+    G[Git \fa-git]
+    A -- .js --> G
+    B -- .java --> G
+    C -- .yaml --> G
+```
